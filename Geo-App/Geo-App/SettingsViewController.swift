@@ -16,7 +16,7 @@ class SettingsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     @IBOutlet weak var bearingSettingPicker: UIPickerView!
     @IBOutlet weak var distanceSettingPicker: UIPickerView!
 
-    var distances = ["Kilometers", "Meters"]
+    var distances = ["Kilometers", "Miles"]
     var bearings = ["Degrees", "Mils"]
     
     override func viewDidLoad() {
@@ -78,6 +78,6 @@ class SettingsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     }
     
     @IBAction func saveBtnClicked(_ sender: Any) {
-        //TODO: This needs to save the settings and segue to view controller
+        //TODO This should persist the updated settings to the other view
     }
 }

@@ -135,6 +135,7 @@
                                         <barButtonItem key="rightBarButtonItem" title="Save" id="Xy1-O9-Kl2">
                                             <connections>
                                                 <action selector="saveBtnClicked:" destination="eVp-iw-kef" id="pl0-tW-zTz"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="5Fm-0P-2up"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -191,4 +192,7 @@
             <point key="canvasLocation" x="821.60000000000002" y="152.47376311844079"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="aWh-PE-hTh"/>
+    </inferredMetricsTieBreakers>
 </document>
