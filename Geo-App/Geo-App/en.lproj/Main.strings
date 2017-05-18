@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "Ixv-qX-2Js"; */
+"Ixv-qX-2Js.normalTitle" = "Calculate";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "fcT-k3-vBM"; */
+"fcT-k3-vBM.normalTitle" = "Clear";
+
+/* Class = "UILabel"; text = "Distance:"; ObjectID = "m3Z-yF-4Mi"; */
+"m3Z-yF-4Mi.text" = "Distance:";
+
+/* Class = "UILabel"; text = "Bearing:"; ObjectID = "xna-Dm-zaz"; */
+"xna-Dm-zaz.text" = "Bearing:";

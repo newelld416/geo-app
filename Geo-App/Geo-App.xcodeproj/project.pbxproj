@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22045DEA1ECD2AF800ECC70A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22045DE91ECD2AF800ECC70A /* AppDelegate.swift */; };
+		22045DEC1ECD2AF800ECC70A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22045DEB1ECD2AF800ECC70A /* ViewController.swift */; };
+		22045DEF1ECD2AF800ECC70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22045DED1ECD2AF800ECC70A /* Main.storyboard */; };
+		22045DF11ECD2AF800ECC70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22045DF01ECD2AF800ECC70A /* Assets.xcassets */; };
+		22045DF41ECD2AF800ECC70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22045DF21ECD2AF800ECC70A /* LaunchScreen.storyboard */; };
+		22045DFF1ECD2AF900ECC70A /* Geo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22045DFE1ECD2AF900ECC70A /* Geo_AppTests.swift */; };
+		22045E0A1ECD2AF900ECC70A /* Geo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22045E091ECD2AF900ECC70A /* Geo_AppUITests.swift */; };
+		22045E1A1ECD3AE400ECC70A /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22045E191ECD3AE400ECC70A /* DecimalMinusTextField.swift */; };
+		221FD3081ECD5E3D00C5C315 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FD3071ECD5E3D00C5C315 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22045DFB1ECD2AF900ECC70A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22045DDE1ECD2AF800ECC70A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22045DE51ECD2AF800ECC70A;
+			remoteInfo = "Geo-App";
+		};
+		22045E061ECD2AF900ECC70A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22045DDE1ECD2AF800ECC70A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22045DE51ECD2AF800ECC70A;
+			remoteInfo = "Geo-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22045DE61ECD2AF800ECC70A /* Geo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22045DE91ECD2AF800ECC70A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22045DEB1ECD2AF800ECC70A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22045DEE1ECD2AF800ECC70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22045DF01ECD2AF800ECC70A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22045DF31ECD2AF800ECC70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22045DF51ECD2AF800ECC70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22045DFA1ECD2AF900ECC70A /* Geo-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geo-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22045DFE1ECD2AF900ECC70A /* Geo_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo_AppTests.swift; sourceTree = "<group>"; };
+		22045E001ECD2AF900ECC70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22045E051ECD2AF900ECC70A /* Geo-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geo-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22045E091ECD2AF900ECC70A /* Geo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo_AppUITests.swift; sourceTree = "<group>"; };
+		22045E0B1ECD2AF900ECC70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22045E191ECD3AE400ECC70A /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
+		221FD3071ECD5E3D00C5C315 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22045DE31ECD2AF800ECC70A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22045DF71ECD2AF900ECC70A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22045E021ECD2AF900ECC70A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22045DDD1ECD2AF800ECC70A = {
+			isa = PBXGroup;
+			children = (
+				22045DE81ECD2AF800ECC70A /* Geo-App */,
+				22045DFD1ECD2AF900ECC70A /* Geo-AppTests */,
+				22045E081ECD2AF900ECC70A /* Geo-AppUITests */,
+				22045DE71ECD2AF800ECC70A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22045DE71ECD2AF800ECC70A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22045DE61ECD2AF800ECC70A /* Geo-App.app */,
+				22045DFA1ECD2AF900ECC70A /* Geo-AppTests.xctest */,
+				22045E051ECD2AF900ECC70A /* Geo-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22045DE81ECD2AF800ECC70A /* Geo-App */ = {
+			isa = PBXGroup;
+			children = (
+				22045DE91ECD2AF800ECC70A /* AppDelegate.swift */,
+				22045DEB1ECD2AF800ECC70A /* ViewController.swift */,
+				22045DED1ECD2AF800ECC70A /* Main.storyboard */,
+				22045DF01ECD2AF800ECC70A /* Assets.xcassets */,
+				22045DF21ECD2AF800ECC70A /* LaunchScreen.storyboard */,
+				22045DF51ECD2AF800ECC70A /* Info.plist */,
+				22045E191ECD3AE400ECC70A /* DecimalMinusTextField.swift */,
+				221FD3071ECD5E3D00C5C315 /* SettingsViewController.swift */,
+			);
+			path = "Geo-App";
+			sourceTree = "<group>";
+		};
+		22045DFD1ECD2AF900ECC70A /* Geo-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				22045DFE1ECD2AF900ECC70A /* Geo_AppTests.swift */,
+				22045E001ECD2AF900ECC70A /* Info.plist */,
+			);
+			path = "Geo-AppTests";
+			sourceTree = "<group>";
+		};
+		22045E081ECD2AF900ECC70A /* Geo-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22045E091ECD2AF900ECC70A /* Geo_AppUITests.swift */,
+				22045E0B1ECD2AF900ECC70A /* Info.plist */,
+			);
+			path = "Geo-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22045DE51ECD2AF800ECC70A /* Geo-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22045E0E1ECD2AF900ECC70A /* Build configuration list for PBXNativeTarget "Geo-App" */;
+			buildPhases = (
+				22045DE21ECD2AF800ECC70A /* Sources */,
+				22045DE31ECD2AF800ECC70A /* Frameworks */,
+				22045DE41ECD2AF800ECC70A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geo-App";
+			productName = "Geo-App";
+			productReference = 22045DE61ECD2AF800ECC70A /* Geo-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22045DF91ECD2AF900ECC70A /* Geo-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22045E111ECD2AF900ECC70A /* Build configuration list for PBXNativeTarget "Geo-AppTests" */;
+			buildPhases = (
+				22045DF61ECD2AF900ECC70A /* Sources */,
+				22045DF71ECD2AF900ECC70A /* Frameworks */,
+				22045DF81ECD2AF900ECC70A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22045DFC1ECD2AF900ECC70A /* PBXTargetDependency */,
+			);
+			name = "Geo-AppTests";
+			productName = "Geo-AppTests";
+			productReference = 22045DFA1ECD2AF900ECC70A /* Geo-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22045E041ECD2AF900ECC70A /* Geo-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22045E141ECD2AF900ECC70A /* Build configuration list for PBXNativeTarget "Geo-AppUITests" */;
+			buildPhases = (
+				22045E011ECD2AF900ECC70A /* Sources */,
+				22045E021ECD2AF900ECC70A /* Frameworks */,
+				22045E031ECD2AF900ECC70A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22045E071ECD2AF900ECC70A /* PBXTargetDependency */,
+			);
+			name = "Geo-AppUITests";
+			productName = "Geo-AppUITests";
+			productReference = 22045E051ECD2AF900ECC70A /* Geo-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22045DDE1ECD2AF800ECC70A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Daniel Newell";
+				TargetAttributes = {
+					22045DE51ECD2AF800ECC70A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					22045DF91ECD2AF900ECC70A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22045DE51ECD2AF800ECC70A;
+					};
+					22045E041ECD2AF900ECC70A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22045DE51ECD2AF800ECC70A;
+					};
+				};
+			};
+			buildConfigurationList = 22045DE11ECD2AF800ECC70A /* Build configuration list for PBXProject "Geo-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22045DDD1ECD2AF800ECC70A;
+			productRefGroup = 22045DE71ECD2AF800ECC70A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22045DE51ECD2AF800ECC70A /* Geo-App */,
+				22045DF91ECD2AF900ECC70A /* Geo-AppTests */,
+				22045E041ECD2AF900ECC70A /* Geo-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22045DE41ECD2AF800ECC70A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22045DF41ECD2AF800ECC70A /* LaunchScreen.storyboard in Resources */,
+				22045DF11ECD2AF800ECC70A /* Assets.xcassets in Resources */,
+				22045DEF1ECD2AF800ECC70A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22045DF81ECD2AF900ECC70A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22045E031ECD2AF900ECC70A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22045DE21ECD2AF800ECC70A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22045E1A1ECD3AE400ECC70A /* DecimalMinusTextField.swift in Sources */,
+				22045DEC1ECD2AF800ECC70A /* ViewController.swift in Sources */,
+				22045DEA1ECD2AF800ECC70A /* AppDelegate.swift in Sources */,
+				221FD3081ECD5E3D00C5C315 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22045DF61ECD2AF900ECC70A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22045DFF1ECD2AF900ECC70A /* Geo_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22045E011ECD2AF900ECC70A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22045E0A1ECD2AF900ECC70A /* Geo_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22045DFC1ECD2AF900ECC70A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22045DE51ECD2AF800ECC70A /* Geo-App */;
+			targetProxy = 22045DFB1ECD2AF900ECC70A /* PBXContainerItemProxy */;
+		};
+		22045E071ECD2AF900ECC70A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22045DE51ECD2AF800ECC70A /* Geo-App */;
+			targetProxy = 22045E061ECD2AF900ECC70A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22045DED1ECD2AF800ECC70A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22045DEE1ECD2AF800ECC70A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22045DF21ECD2AF800ECC70A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22045DF31ECD2AF800ECC70A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22045E0C1ECD2AF900ECC70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22045E0D1ECD2AF900ECC70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22045E0F1ECD2AF900ECC70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Geo-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GVSU.Geo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		22045E101ECD2AF900ECC70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Geo-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GVSU.Geo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		22045E121ECD2AF900ECC70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Geo-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GVSU.Geo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geo-App.app/Geo-App";
+			};
+			name = Debug;
+		};
+		22045E131ECD2AF900ECC70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Geo-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GVSU.Geo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geo-App.app/Geo-App";
+			};
+			name = Release;
+		};
+		22045E151ECD2AF900ECC70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Geo-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GVSU.Geo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Geo-App";
+			};
+			name = Debug;
+		};
+		22045E161ECD2AF900ECC70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Geo-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GVSU.Geo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Geo-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22045DE11ECD2AF800ECC70A /* Build configuration list for PBXProject "Geo-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22045E0C1ECD2AF900ECC70A /* Debug */,
+				22045E0D1ECD2AF900ECC70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22045E0E1ECD2AF900ECC70A /* Build configuration list for PBXNativeTarget "Geo-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22045E0F1ECD2AF900ECC70A /* Debug */,
+				22045E101ECD2AF900ECC70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22045E111ECD2AF900ECC70A /* Build configuration list for PBXNativeTarget "Geo-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22045E121ECD2AF900ECC70A /* Debug */,
+				22045E131ECD2AF900ECC70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22045E141ECD2AF900ECC70A /* Build configuration list for PBXNativeTarget "Geo-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22045E151ECD2AF900ECC70A /* Debug */,
+				22045E161ECD2AF900ECC70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22045DDE1ECD2AF800ECC70A /* Project object */;
+}
